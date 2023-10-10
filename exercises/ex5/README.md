@@ -95,9 +95,9 @@ Go ahead and create the list of header fields and line item fields as shown in t
 |  :------------------- |  :-------------------	| :----------   | :----------    
 |  header field         |  `companyName`        | string        | auto       
 |  header field         |  `employeeName`       | string        | auto
-|  header field         |  `limitedContract`    | currency      | auto           
-|  header field         |  `salaryMonth`        | string        | auto       
-|  header field         |  `startDate`          | number        | auto       
+|  header field         |  `limitedContract`    | string        | auto           
+|  header field         |  `salaryMonth`        | number        | auto       
+|  header field         |  `startDate`          | date          | auto       
              
 
 <br>![](/exercises/ex5/images/all-fields.png)
