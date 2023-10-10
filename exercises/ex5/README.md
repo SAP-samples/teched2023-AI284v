@@ -1,6 +1,6 @@
-# Exercise 5 - Process a receipt using Document Information Extraction and LLMs (Large Language Models)
+# Exercise 5 - Process a work contract using Document Information Extraction and LLMs (Large Language Models)
 
-In this exercise, you'll extract information from a custom document - in this case, a lunch receipt. The Document Information Extraction service doesn't support custom document types out of the box. So, you'll create a custom schema to define the fields that you want to extract from the receipt document using LLMs (Large Language Models).
+In this exercise, you'll extract information from a custom document - in this case, a work contract. The Document Information Extraction service doesn't support custom document types out of the box. So, you'll create a custom schema to define the fields that you want to extract from the work contract document using LLMs (Large Language Models).
 
 ## Exercise 5.1 Access schema configuration
 
@@ -45,7 +45,7 @@ To create your own schema, click **Create** and a dialog opens.
 
 <br>![](/exercises/ex5/images/create-schema.png)
 
-In the dialog, enter a name for your custom schema, `receipt_schema`, for example. Note that the name can't include blanks. Further, select `Custom` as your **Document Type** and `Document` for **OCR Engine Type**.
+In the dialog, enter a name for your custom schema, `work_contract_schema`, for example. Note that the name can't include blanks. Further, select `Custom` as your **Document Type** and `Document` for **OCR Engine Type**.
 
 Click **Create** to create the schema.
 
@@ -65,7 +65,7 @@ To add your first header field, click **Add**.
 
 For each custom field, you have to enter name and data type. The available data types are `string`, `number`, `date`, `discount`, `currency`, and `country/region`. Default extractors aren't available for custom documents. Adding a description is optional.
 
-As your first header field, add the vendor name of your receipt.
+As your first header field, add the vendor name of your work contract.
 
 1. Enter the name for your field, `vendorName`, for example.
 
@@ -91,13 +91,13 @@ Click **Add** again to open the `Add Data Field` dialog.
 
 Go ahead and create the list of header fields and line item fields as shown in the table and image below. Pay attention to the different data types and that the last two fields are line item fields (not header fields). Feel free to extend or reduce the list of fields.
 
-|  Field Type		|  Field Name           | Data Type     | Setup Type   
+|  Field Type		    |  Field Name           | Data Type     | Setup Type   
 |  :------------------- |  :-------------------	| :----------   | :----------    
-|  header field         |  `vendorName`         | string        | auto       
-|  header field         |  `vendorAddress`      | string        | auto
-|  header field         |  `currency`           | currency      | auto           
-|  line item field      |  `description`        | string        | auto       
-|  line item field      |  `amount`             | number        | auto       
+|  header field         |  `companyName`        | string        | auto       
+|  header field         |  `employeeName`       | string        | auto
+|  header field         |  `limitedContract`    | currency      | auto           
+|  header field         |  `salaryMonth`        | string        | auto       
+|  header field         |  `startDate`          | number        | auto       
              
 
 <br>![](/exercises/ex5/images/all-fields.png)
@@ -116,7 +116,7 @@ Now, the status of your schema changes to `ACTIVE`. To make changes to your sche
 
 <br>![](/exercises/ex5/images/active.png)
 
-Congratulations, you have created and activated your custom schema for receipt documents.
+Congratulations, you have created and activated your custom schema for work contract documents.
 
 
 
@@ -128,9 +128,9 @@ Congratulations, you have created and activated your custom schema for receipt d
 
 2. On the Select Document screen, choose `Custom` for the **Document Type**.
 
-3. Select the **Schema** you created (`receipt_schema`).
+3. Select the **Schema** you created (`work_contract_schema`).
 
-4. Drop the file directly or click **+** to upload the [receipt](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex5/files/receipt.jpg) sample document.
+4. Drop the file directly or click **+** to upload the [work contract](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex5/files/work_contract.pdf) sample document.
 
 5. Click **Step 2**.
 
