@@ -1,4 +1,4 @@
-# Exercise 1 - Process a delivery note using Document Information Extraction and LLMs (Large Language Models)
+# Exercise 1 - Process a delivery note using Document Information Extraction and LLMs
 
 In this exercise, you'll extract information from a custom document - in this case, a delivery note. The Document Information Extraction service doesn't support custom document types out of the box. So, you'll create a custom schema to define the fields that you want to extract from a delivery note document using LLMs (Large Language Models).
 
@@ -157,4 +157,4 @@ Congratulations, you have created and activated your custom schema for delivery 
 
 You've now extracted information from a delivery note document using the Schema Configuration feature from Document Information Extraction and LLMs (Large Language Models).
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+Continue to - [Exercise 2 - Process a receipt using Document Information Extraction and LLMs](../ex2/README.md)
