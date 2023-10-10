@@ -89,15 +89,15 @@ Click **Add** again to open the `Add Data Field` dialog.
 
     <br>![](/exercises/ex4/images/add-address.png)
 
-Go ahead and create the list of header fields and line item fields as shown in the table and image below. Pay attention to the different data types and that the last two fields are line item fields (not header fields). Feel free to extend or reduce the list of fields.
+Go ahead and create the list of header fields as shown in the table and image below. Feel free to extend or reduce the list of fields.
 
-|  Field Type		|  Field Name           | Data Type     | Setup Type   
+|  Field Type		    |  Field Name           | Data Type     | Setup Type   
 |  :------------------- |  :-------------------	| :----------   | :----------    
-|  header field         |  `vendorName`         | string        | auto       
-|  header field         |  `vendorAddress`      | string        | auto
-|  header field         |  `currency`           | currency      | auto           
-|  line item field      |  `description`        | string        | auto       
-|  line item field      |  `amount`             | number        | auto       
+|  header field         |  `firstName`          | string        | auto       
+|  header field         |  `lastName`           | string        | auto
+|  header field         |  `degree`             | string        | auto           
+|  header field         |  `employer`           | string        | auto       
+|  header field         |  `jobTitle`           | string        | auto       
              
 
 <br>![](/exercises/ex4/images/all-fields.png)
