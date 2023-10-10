@@ -151,4 +151,9 @@ Congratulations, you have created and activated your custom schema for résumé 
     <br>![](/exercises/ex3/images/results.png)
 
 
-    Congratulations, you have completed this exercise.
+
+## Summary
+
+You've now extracted information from a résumé document using the Schema Configuration feature from Document Information Extraction and LLMs.
+
+Continue to [Exercise 4 - Process a birth certificate using Document Information Extraction and LLMs](../ex4/README.md).
