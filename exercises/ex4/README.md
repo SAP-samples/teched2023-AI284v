@@ -130,7 +130,7 @@ Congratulations, you have created and activated your custom schema for résumé 
 
 3. Select the **Schema** you created (`resume_schema`).
 
-4. Drop the file directly or click **+** to upload the [résumé](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex4/files/resume.jpg) sample document.
+4. Drop the file directly or click **+** to upload the [résumé](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex4/files/resume.pdf) sample document.
 
 5. Click **Step 2**.
 
