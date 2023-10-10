@@ -89,15 +89,15 @@ Click **Add** again to open the `Add Data Field` dialog.
 
     <br>![](/exercises/ex4/images/add-address.png)
 
-Go ahead and create the list of header fields as shown in the table and image below. Feel free to extend or reduce the list of fields.
+Go ahead and create the list of header fields as shown in the table and image below. Pay attention to the different data types. Feel free to extend or reduce the list of fields.
 
-|  Field Type		    |  Field Name           | Data Type     | Setup Type   
-|  :------------------- |  :-------------------	| :----------   | :----------    
-|  header field         |  `firstName`          | string        | auto       
-|  header field         |  `lastName`           | string        | auto
-|  header field         |  `degree`             | string        | auto           
-|  header field         |  `employer`           | string        | auto       
-|  header field         |  `jobTitle`           | string        | auto       
+|  Field Type		    |  Field Name             | Data Type     | Setup Type   
+|  :------------------- |  :-------------------	  | :----------   | :----------    
+|  header field         |  `name`                 | string        | auto       
+|  header field         |  `birthDate`            | date          | auto
+|  header field         |  `motherName`           | string        | auto           
+|  header field         |  `fatherName`           | string        | auto       
+|  header field         |  `registrationNumber`   | string        | auto       
              
 
 <br>![](/exercises/ex4/images/all-fields.png)
