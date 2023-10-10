@@ -156,4 +156,4 @@ Congratulations, you have created and activated your custom schema for receipt d
 
 You've now extracted information from a receipt document using the Schema Configuration feature from Document Information Extraction and LLMs.
 
-Continue to [Exercise 3 - Process a résumé using Document Information Extraction and LLMs](../ex3/README.md)
+Continue to [Exercise 3 - Process a résumé using Document Information Extraction and LLMs](../ex3/README.md).
