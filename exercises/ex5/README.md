@@ -1,6 +1,6 @@
 # Exercise 5 - Process a work contract using Document Information Extraction and LLMs
 
-In this exercise, you'll extract information from a custom document - in this case, a work contract. The Document Information Extraction service doesn't support custom document types out of the box. So, you'll create a custom schema to define the fields that you want to extract from the work contract document using LLMs (Large Language Models).
+In this exercise, you'll extract information from a custom document - in this case, a work contract. The Document Information Extraction service doesn't support custom document types out of the box. So, you'll create a custom schema to define the fields that you want to extract from a work contract document using LLMs (Large Language Models).
 
 ## Exercise 5.1 Access schema configuration
 
@@ -151,4 +151,9 @@ Congratulations, you have created and activated your custom schema for work cont
     <br>![](/exercises/ex5/images/results.png)
 
 
-    Congratulations, you have completed this exercise.
+
+## Summary
+
+You've now extracted information from a work contract document using the Schema Configuration feature from Document Information Extraction and LLMs.
+
+Congratulations, you've completed all the exercises.
