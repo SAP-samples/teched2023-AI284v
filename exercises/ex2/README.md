@@ -45,7 +45,7 @@ To create your own schema, click **Create** and a dialog opens.
 
 <br>![](/exercises/ex2/images/create-schema.png)
 
-In the dialog, enter a name for your custom schema, `receipt_schema`, for example. Note that the name cannot include blanks. Further, select `Custom` as your **Document Type** and `Document` for **OCR Engine Type**.
+In the dialog, enter a name for your custom schema, `receipt_schema`, for example. Note that the name can't include blanks. Further, select `Custom` as your **Document Type** and `Document` for **OCR Engine Type**.
 
 Click **Create** to create the schema.
 
@@ -63,7 +63,7 @@ To add your first header field, click **Add**.
 
 <br>![](/exercises/ex2/images/add-field.png)
 
-For each custom field, you have to enter name and data type. The available data types are `string`, `number`, `date`, `discount`, `currency`, and `country/region`. Default extractors are not available for custom documents. Adding a description is optional.
+For each custom field, you have to enter name and data type. The available data types are `string`, `number`, `date`, `discount`, `currency`, and `country/region`. Default extractors aren't available for custom documents. Adding a description is optional.
 
 As your first header field, add the vendor name of your receipt.
 
@@ -106,7 +106,7 @@ Go ahead and create the list of header fields and line item fields as shown in t
 
 ## Exercise 2.4 Activate schema
 
-Once you have added all fields, the schema needs to be activated so that it can be used to extract information from documents. Right now, the schema has the status `DRAFT`, indicating that it cannot be used yet.
+Once you have added all fields, the schema needs to be activated so that it can be used to extract information from documents. Right now, the schema has the status `DRAFT`, indicating that it can't be used yet.
 
 To activate the schema, click **Activate**.
 
