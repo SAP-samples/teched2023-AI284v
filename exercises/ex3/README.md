@@ -67,38 +67,39 @@ For each custom field, you have to enter name and data type. The available data 
 
 As your first header field, add the vendor name of your delivery note.
 
-1. Enter the name for your field, `vendorName`, for example.
+1. Enter the name for your field, `deliveryNoteNumber`, for example.
 
 2. Select `string` for the `Data Type`.
 
 3. Select `auto` for the `Setup Type` and click **Add** to create the header field. Note that when you use the setup type `auto` without a default extractor, LLMs are then used to extract the information from the document.
 
-    <br>![](/exercises/ex3/images/add-name.png)
+    <br>![](/exercises/ex3/images/add-number.png)
 
 The field now displays in your list of header fields, where you again find all the information that you have just entered. You can edit or delete the field by clicking the respective icons on the right.
 
-<br>![](/exercises/ex3/images/added-name.png)
+<br>![](/exercises/ex3/images/added-number.png)
 
 Click **Add** again to open the `Add Data Field` dialog.
 
-1. Enter the name for your second header field, `vendorAddress`, for example.
+1. Enter the name for your second header field, `purchaseOrderNumber`, for example.
 
 2. Select `string` for the `Data Type`.
 
 3. Select `auto` for the `Setup Type` and click **Add** to create the field.
 
-    <br>![](/exercises/ex3/images/add-address.png)
+    <br>![](/exercises/ex3/images/add-ponumber.png)
 
-Go ahead and create the list of header fields and line item fields as shown in the table and image below. Pay attention to the different data types and that the last two fields are line item fields (not header fields). Feel free to extend or reduce the list of fields.
+Go ahead and create the list of header fields and line item fields as shown in the table and image below. Pay attention to the different data types and that the last three fields are line item fields (not header fields). Feel free to extend or reduce the list of fields.
 
-|  Field Type		|  Field Name           | Data Type     | Setup Type   
-|  :------------------- |  :-------------------	| :----------   | :----------    
-|  header field         |  `vendorName`         | string        | auto       
-|  header field         |  `vendorAddress`      | string        | auto
-|  header field         |  `currency`           | currency      | auto           
-|  line item field      |  `description`        | string        | auto       
-|  line item field      |  `amount`             | number        | auto       
-             
+|  Field Type		    |  Field Name             | Data Type     | Setup Type   
+|  :------------------- |  :-------------------	  | :----------   | :----------    
+|  header field         |  `deliveryNoteNumber`   | string        | auto       
+|  header field         |  `purchaseOrderNumber`  | string        | auto
+|  header field         |  `deliveryDate`         | date          | auto           
+|  line item field      |  `materialNumber`       | string        | auto       
+|  line item field      |  `quantity`             | number        | auto       
+|  line item field      |  `unitOfMeasure`        | string        | auto               
+
 
 <br>![](/exercises/ex3/images/all-fields.png)
 
