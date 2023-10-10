@@ -130,7 +130,7 @@ Congratulations, you have created and activated your custom schema for receipt d
 
 3. Select the **Schema** you created (`receipt_schema`).
 
-4. Drop the file directly or click **+** to upload the [receipt](https://github.com/SAP-samples/teched2023-AI284v/tree/main/exercises/ex2/files) document.
+4. Drop the file directly or click **+** to upload the [receipt](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex2/files/receipt.jpg) sample document.
 
 5. Click **Step 2**.
 
