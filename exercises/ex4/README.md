@@ -1,6 +1,6 @@
-# Exercise 4 - Process a résumé using Document Information Extraction and LLMs (Large Language Models)
+# Exercise 4 - Process a birth certificate using Document Information Extraction and LLMs
 
-In this exercise, you'll extract information from a custom document - in this case, a résumé. The Document Information Extraction service doesn't support custom document types out of the box. So, you'll create a custom schema to define the fields that you want to extract from the résumé document using LLMs (Large Language Models).
+In this exercise, you'll extract information from a custom document - in this case, a birth certificate. The Document Information Extraction service doesn't support custom document types out of the box. So, you'll create a custom schema to define the fields that you want to extract from a birth certificate document using LLMs (Large Language Models).
 
 ## Exercise 4.1 Access schema configuration
 
@@ -45,7 +45,7 @@ To create your own schema, click **Create** and a dialog opens.
 
 <br>![](/exercises/ex4/images/create-schema.png)
 
-In the dialog, enter a name for your custom schema, `resume_schema`, for example. Note that the name can't include blanks. Further, select `Custom` as your **Document Type** and `Document` for **OCR Engine Type**.
+In the dialog, enter a name for your custom schema, `birth_certificate_schema`, for example. Note that the name can't include blanks. Further, select `Custom` as your **Document Type** and `Document` for **OCR Engine Type**.
 
 Click **Create** to create the schema.
 
@@ -65,7 +65,7 @@ To add your first header field, click **Add**.
 
 For each custom field, you have to enter name and data type. The available data types are `string`, `number`, `date`, `discount`, `currency`, and `country/region`. Default extractors aren't available for custom documents. Adding a description is optional.
 
-As your first header field, add the vendor name of the résumé.
+As your first header field, add the vendor name of the birth certificate.
 
 1. Enter the name for your field, `vendorName`, for example.
 
@@ -116,7 +116,7 @@ Now, the status of your schema changes to `ACTIVE`. To make changes to your sche
 
 <br>![](/exercises/ex4/images/active.png)
 
-Congratulations, you have created and activated your custom schema for résumé documents.
+Congratulations, you have created and activated your custom schema for birth certificate documents.
 
 
 
@@ -128,9 +128,9 @@ Congratulations, you have created and activated your custom schema for résumé 
 
 2. On the Select Document screen, choose `Custom` for the **Document Type**.
 
-3. Select the **Schema** you created (`resume_schema`).
+3. Select the **Schema** you created (`birth_certificate_schema`).
 
-4. Drop the file directly or click **+** to upload the [résumé](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex4/files/resume.pdf) sample document.
+4. Drop the file directly or click **+** to upload the [birth certificate](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex4/files/birth_certificate.png) sample document.
 
 5. Click **Step 2**.
 
