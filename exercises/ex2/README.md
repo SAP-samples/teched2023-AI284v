@@ -1,6 +1,6 @@
-# Exercise 2 - Process a receipt using Document Information Extraction and LLMs (Large Language Models)
+# Exercise 2 - Process a receipt using Document Information Extraction and LLMs
 
-In this exercise, you'll extract information from a custom document - in this case, a lunch receipt. The Document Information Extraction service doesn't support custom document types out of the box. So, you'll create a custom schema to define the fields that you want to extract from the receipt document using LLMs (Large Language Models).
+In this exercise, you'll extract information from a custom document - in this case, a lunch receipt. The Document Information Extraction service doesn't support custom document types out of the box. So, you'll create a custom schema to define the fields that you want to extract from a receipt document using LLMs (Large Language Models).
 
 ## Exercise 2.1 Access schema configuration
 
@@ -151,4 +151,9 @@ Congratulations, you have created and activated your custom schema for receipt d
     <br>![](/exercises/ex2/images/results.png)
 
 
-    Congratulations, you have completed this exercise.
+
+## Summary
+
+You've now extracted information from a receipt document using the Schema Configuration feature from Document Information Extraction and LLMs.
+
+Continue to - [Exercise 3 - Process a ??? using Document Information Extraction and LLMs](../ex3/README.md)
