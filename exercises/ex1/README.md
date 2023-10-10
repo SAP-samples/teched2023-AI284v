@@ -157,4 +157,4 @@ Congratulations, you have created and activated your custom schema for delivery 
 
 You've now extracted information from a delivery note document using the Schema Configuration feature from Document Information Extraction and LLMs.
 
-Continue to - [Exercise 2 - Process a receipt using Document Information Extraction and LLMs](../ex2/README.md)
+Continue to - [Exercise 2 - Process a receipt using Document Information Extraction and LLMs](../ex2/README.md).
