@@ -156,4 +156,4 @@ Congratulations, you have created and activated your custom schema for birth cer
 
 You've now extracted information from a birth certificate document using the Schema Configuration feature from Document Information Extraction and LLMs.
 
-Continue to - [Exercise 5 - Process a work contract using Document Information Extraction and LLMs](../ex5/README.md)
+Continue to [Exercise 5 - Process a work contract using Document Information Extraction and LLMs](../ex5/README.md).
