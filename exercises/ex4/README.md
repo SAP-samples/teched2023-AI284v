@@ -65,13 +65,15 @@ To add your first header field, click **Add**.
 
 For each custom field, you've to enter name and data type. The available data types are `string`, `number`, `date`, `discount`, `currency`, and `country/region`. Default extractors aren't available for custom documents. Adding a description is optional.
 
-As your first header field, add the name in the birth certificate.
+As your first header field, add the child name in the birth certificate.
 
 1. Enter the name for your field, `name`, for example.
+   
+2. Enter the following description for this field: `Name of child (first name and last name)`.
 
-2. Select `string` for the `Data Type`.
+3. Select `string` for the `Data Type`.
 
-3. Select `auto` for the `Setup Type` and click **Add** to create the header field. Note that when you use the setup type `auto` without a default extractor, LLMs are then used to extract the information from the document.
+4. Select `auto` for the `Setup Type` and click **Add** to create the header field. Note that when you use the setup type `auto` without a default extractor, LLMs are then used to extract the information from the document.
 
     <br>![](/exercises/ex4/images/add-name.png)
 
@@ -83,11 +85,11 @@ Click **Add** again to open the `Add Data Field` dialog.
 
 1. Enter the name for your second header field, `birthDate`, for example.
 
-2. Select `string` for the `Data Type`.
+2. Select `date` for the `Data Type`.
 
 3. Select `auto` for the `Setup Type` and click **Add** to create the field.
 
-    <br>![](/exercises/ex4/images/add-address.png)
+    <br>![](/exercises/ex4/images/add-birthDate.png)
 
 Go ahead and create the list of header fields as shown in the table and image below. Pay attention to the different data types. Feel free to extend or reduce the list of fields.
 
