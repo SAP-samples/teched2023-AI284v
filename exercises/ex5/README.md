@@ -89,7 +89,7 @@ Click **Add** again to open the `Add Data Field` dialog.
 
     <br>![](/exercises/ex5/images/add-address.png)
 
-Go ahead and create the list of header fields as shown in the table and image below. Pay attention to the different data types. Feel free to extend or reduce the list of fields.
+Go ahead and create the list of header fields as shown in the table and image below. Pay attention to the different data types. Don't forget to add a description for all fields (as in the image). Feel free to extend or reduce the list of fields.
 
 |  Field Type		    |  Field Name           | Data Type     | Setup Type   
 |  :------------------- |  :-------------------	| :----------   | :----------    
