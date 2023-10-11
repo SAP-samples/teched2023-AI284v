@@ -69,9 +69,11 @@ As your first header field, add the company name in your work contract.
 
 1. Enter the name for your field, `companyName`, for example.
 
-2. Select `string` for the `Data Type`.
+2. Enter the following description for this field: `Name of the company`.
 
-3. Select `auto` for the `Setup Type` and click **Add** to create the header field. Note that when you use the setup type `auto` without a default extractor, LLMs are then used to extract the information from the document.
+3. Select `string` for the `Data Type`.
+
+4. Select `auto` for the `Setup Type` and click **Add** to create the header field. Note that when you use the setup type `auto` without a default extractor, LLMs are then used to extract the information from the document.
 
     <br>![](/exercises/ex5/images/add-companyName.png)
 
@@ -83,11 +85,13 @@ Click **Add** again to open the `Add Data Field` dialog.
 
 1. Enter the name for your second header field, `employeeName`, for example.
 
-2. Select `string` for the `Data Type`.
+2. Enter the following description for this field: `Name of the employee`.
 
-3. Select `auto` for the `Setup Type` and click **Add** to create the field.
+3. Select `string` for the `Data Type`.
 
-    <br>![](/exercises/ex5/images/add-address.png)
+4. Select `auto` for the `Setup Type` and click **Add** to create the field.
+
+    <br>![](/exercises/ex5/images/add-employeeName.png)
 
 Go ahead and create the list of header fields as shown in the table and image below. Pay attention to the different data types. Don't forget to add a description for all fields (as in the image). Feel free to extend or reduce the list of fields.
 
@@ -96,7 +100,7 @@ Go ahead and create the list of header fields as shown in the table and image be
 |  header field         |  `companyName`        | string        | auto       
 |  header field         |  `employeeName`       | string        | auto
 |  header field         |  `limitedContract`    | string        | auto           
-|  header field         |  `salaryMonth`        | number        | auto       
+|  header field         |  `salary`             | number        | auto       
 |  header field         |  `startDate`          | date          | auto       
              
 
