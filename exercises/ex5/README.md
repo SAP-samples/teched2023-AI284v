@@ -73,7 +73,7 @@ As your first header field, add the company name in your work contract.
 
 3. Select `auto` for the `Setup Type` and click **Add** to create the header field. Note that when you use the setup type `auto` without a default extractor, LLMs are then used to extract the information from the document.
 
-    <br>![](/exercises/ex5/images/add-name.png)
+    <br>![](/exercises/ex5/images/add-companyName.png)
 
 The field now displays in your list of header fields, where you again find all the information that you've just entered. You can edit or delete the field by clicking the respective icons on the right.
 
