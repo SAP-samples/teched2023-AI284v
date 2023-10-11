@@ -63,7 +63,7 @@ To add your first header field, click **Add**.
 
 <br>![](/exercises/ex1/images/add-field.png)
 
-For each custom field, you have to enter name and data type. The available data types are `string`, `number`, `date`, `discount`, `currency`, and `country/region`. Default extractors aren't available for custom documents. Adding a description is optional.
+For each custom field, you've to enter name and data type. The available data types are `string`, `number`, `date`, `discount`, `currency`, and `country/region`. Default extractors aren't available for custom documents. Adding a description is optional.
 
 As your first header field, add the number of the delivery note.
 
@@ -75,7 +75,7 @@ As your first header field, add the number of the delivery note.
 
     <br>![](/exercises/ex1/images/add-number.png)
 
-The field now displays in your list of header fields, where you again find all the information that you have just entered. You can edit or delete the field by clicking the respective icons on the right.
+The field now displays in your list of header fields, where you again find all the information that you've just entered. You can edit or delete the field by clicking the respective icons on the right.
 
 <br>![](/exercises/ex1/images/added-number.png)
 
@@ -107,17 +107,17 @@ Go ahead and create the list of header fields and line item fields as shown in t
 
 ## Exercise 1.4 Activate schema
 
-Once you have added all fields, the schema needs to be activated so that it can be used to extract information from documents. Right now, the schema has the status `DRAFT`, indicating that it can't be used yet.
+Once you've added all fields, the schema needs to be activated so that it can be used to extract information from documents. Right now, the schema has the status `DRAFT`, indicating that it can't be used yet.
 
 To activate the schema, click **Activate**.
 
 <br>![](/exercises/ex1/images/activate.png)
 
-Now, the status of your schema changes to `ACTIVE`. To make changes to your schema, you have to **Deactivate** it first.
+Now, the status of your schema changes to `ACTIVE`. To make changes to your schema, you've to **Deactivate** it first.
 
 <br>![](/exercises/ex1/images/active.png)
 
-Congratulations, you have created and activated your custom schema for delivery note documents.
+Congratulations, you've now created and activated your custom schema for delivery note documents.
 
 
 
@@ -155,6 +155,6 @@ Congratulations, you have created and activated your custom schema for delivery 
 
 ## Summary
 
-You've now extracted information from a delivery note document using the Schema Configuration feature from Document Information Extraction and LLMs.
+You've now successfully extracted information from a delivery note document using the Schema Configuration feature from Document Information Extraction and LLMs.
 
 Continue to [Exercise 2 - Process a receipt using Document Information Extraction and LLMs](../ex2/README.md).
