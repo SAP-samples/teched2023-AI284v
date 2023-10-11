@@ -63,33 +63,33 @@ To add your first header field, click **Add**.
 
 <br>![](/exercises/ex3/images/add-field.png)
 
-For each custom field, you have to enter name and data type. The available data types are `string`, `number`, `date`, `discount`, `currency`, and `country/region`. Default extractors aren't available for custom documents. Adding a description is optional.
+For each custom field, you've to enter name and data type. The available data types are `string`, `number`, `date`, `discount`, `currency`, and `country/region`. Default extractors aren't available for custom documents. Adding a description is optional.
 
-As your first header field, add the vendor name of the résumé.
+As your first header field, add the first name that appears in the résumé.
 
-1. Enter the name for your field, `vendorName`, for example.
+1. Enter the name for your field, `firstName`, for example.
 
 2. Select `string` for the `Data Type`.
 
 3. Select `auto` for the `Setup Type` and click **Add** to create the header field. Note that when you use the setup type `auto` without a default extractor, LLMs are then used to extract the information from the document.
 
-    <br>![](/exercises/ex3/images/add-name.png)
+    <br>![](/exercises/ex3/images/add-firstName.png)
 
-The field now displays in your list of header fields, where you again find all the information that you have just entered. You can edit or delete the field by clicking the respective icons on the right.
+The field now displays in your list of header fields, where you again find all the information that you've just entered. You can edit or delete the field by clicking the respective icons on the right.
 
-<br>![](/exercises/ex3/images/added-name.png)
+<br>![](/exercises/ex3/images/added-firstName.png)
 
 Click **Add** again to open the `Add Data Field` dialog.
 
-1. Enter the name for your second header field, `vendorAddress`, for example.
+1. Enter the name for your second header field, `lastName`, for example.
 
 2. Select `string` for the `Data Type`.
 
 3. Select `auto` for the `Setup Type` and click **Add** to create the field.
 
-    <br>![](/exercises/ex3/images/add-address.png)
+    <br>![](/exercises/ex3/images/add-lastName.png)
 
-Go ahead and create the list of header fields as shown in the table and image below. Feel free to extend or reduce the list of fields.
+Go ahead and create the list of header fields as shown in the table and image below. Don't forget to add a description for `degree`, `employer` and `jobTitle` (as in the image). Feel free to extend or reduce the list of fields.
 
 |  Field Type		    |  Field Name           | Data Type     | Setup Type   
 |  :------------------- |  :-------------------	| :----------   | :----------    
@@ -106,17 +106,17 @@ Go ahead and create the list of header fields as shown in the table and image be
 
 ## Exercise 3.4 Activate schema
 
-Once you have added all fields, the schema needs to be activated so that it can be used to extract information from documents. Right now, the schema has the status `DRAFT`, indicating that it can't be used yet.
+Once you've added all fields, the schema needs to be activated so that it can be used to extract information from documents. Right now, the schema has the status `DRAFT`, indicating that it can't be used yet.
 
 To activate the schema, click **Activate**.
 
 <br>![](/exercises/ex3/images/activate.png)
 
-Now, the status of your schema changes to `ACTIVE`. To make changes to your schema, you have to **Deactivate** it first.
+Now, the status of your schema changes to `ACTIVE`. To make changes to your schema, you've to **Deactivate** it first.
 
 <br>![](/exercises/ex3/images/active.png)
 
-Congratulations, you have created and activated your custom schema for résumé documents.
+Congratulations, you've now created and activated your custom schema for résumé documents.
 
 
 
@@ -154,6 +154,6 @@ Congratulations, you have created and activated your custom schema for résumé 
 
 ## Summary
 
-You've now extracted information from a résumé document using the Schema Configuration feature from Document Information Extraction and LLMs.
+You've now successfully extracted information from a résumé document using the Schema Configuration feature from Document Information Extraction and LLMs.
 
 Continue to [Exercise 4 - Process a birth certificate using Document Information Extraction and LLMs](../ex4/README.md).
