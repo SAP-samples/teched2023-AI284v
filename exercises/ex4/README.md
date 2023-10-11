@@ -63,11 +63,11 @@ To add your first header field, click **Add**.
 
 <br>![](/exercises/ex4/images/add-field.png)
 
-For each custom field, you have to enter name and data type. The available data types are `string`, `number`, `date`, `discount`, `currency`, and `country/region`. Default extractors aren't available for custom documents. Adding a description is optional.
+For each custom field, you've to enter name and data type. The available data types are `string`, `number`, `date`, `discount`, `currency`, and `country/region`. Default extractors aren't available for custom documents. Adding a description is optional.
 
-As your first header field, add the vendor name of the birth certificate.
+As your first header field, add the name in the birth certificate.
 
-1. Enter the name for your field, `vendorName`, for example.
+1. Enter the name for your field, `name`, for example.
 
 2. Select `string` for the `Data Type`.
 
@@ -75,13 +75,13 @@ As your first header field, add the vendor name of the birth certificate.
 
     <br>![](/exercises/ex4/images/add-name.png)
 
-The field now displays in your list of header fields, where you again find all the information that you have just entered. You can edit or delete the field by clicking the respective icons on the right.
+The field now displays in your list of header fields, where you again find all the information that you've just entered. You can edit or delete the field by clicking the respective icons on the right.
 
 <br>![](/exercises/ex4/images/added-name.png)
 
 Click **Add** again to open the `Add Data Field` dialog.
 
-1. Enter the name for your second header field, `vendorAddress`, for example.
+1. Enter the name for your second header field, `birthDate`, for example.
 
 2. Select `string` for the `Data Type`.
 
@@ -106,17 +106,17 @@ Go ahead and create the list of header fields as shown in the table and image be
 
 ## Exercise 4.4 Activate schema
 
-Once you have added all fields, the schema needs to be activated so that it can be used to extract information from documents. Right now, the schema has the status `DRAFT`, indicating that it can't be used yet.
+Once you've added all fields, the schema needs to be activated so that it can be used to extract information from documents. Right now, the schema has the status `DRAFT`, indicating that it can't be used yet.
 
 To activate the schema, click **Activate**.
 
 <br>![](/exercises/ex4/images/activate.png)
 
-Now, the status of your schema changes to `ACTIVE`. To make changes to your schema, you have to **Deactivate** it first.
+Now, the status of your schema changes to `ACTIVE`. To make changes to your schema, you've to **Deactivate** it first.
 
 <br>![](/exercises/ex4/images/active.png)
 
-Congratulations, you have created and activated your custom schema for birth certificate documents.
+Congratulations, you've now created and activated your custom schema for birth certificate documents.
 
 
 
@@ -154,6 +154,6 @@ Congratulations, you have created and activated your custom schema for birth cer
 
 ## Summary
 
-You've now extracted information from a birth certificate document using the Schema Configuration feature from Document Information Extraction and LLMs.
+You've now successfully extracted information from a birth certificate document using the Schema Configuration feature from Document Information Extraction and LLMs.
 
 Continue to [Exercise 5 - Process a work contract using Document Information Extraction and LLMs](../ex5/README.md).
