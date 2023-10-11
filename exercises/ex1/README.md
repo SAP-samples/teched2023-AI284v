@@ -65,7 +65,7 @@ To add your first header field, click **Add**.
 
 For each custom field, you have to enter name and data type. The available data types are `string`, `number`, `date`, `discount`, `currency`, and `country/region`. Default extractors aren't available for custom documents. Adding a description is optional.
 
-As your first header field, add the vendor name of your delivery note.
+As your first header field, add the number of the delivery note.
 
 1. Enter the name for your field, `deliveryNoteNumber`, for example.
 
