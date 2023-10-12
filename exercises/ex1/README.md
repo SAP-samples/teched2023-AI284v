@@ -2,62 +2,33 @@
 
 In this exercise, you'll extract information from a custom document - in this case, a delivery note. The Document Information Extraction service doesn't support custom document types out of the box. So, you'll create a custom schema to define the fields that you want to extract from a delivery note document using LLMs (Large Language Models).
 
-## Exercise 1.1 Access schema configuration
+## Exercise 1.1 Create schema
 
-1. Open the Document Information Extraction application, as described in the tutorial: [Use Trial to Set Up Account for Document Information Extraction and Go to Application](https://developers.sap.com/tutorials/cp-aibus-dox-booster-app.html).
+1. Open the Document Information Extraction application, as described in the tutorial: [Use Trial to Set Up Account for Document Information Extraction and Go to Application](https://developers.sap.com/tutorials/cp-aibus-dox-booster-app.html).  
 
-
-    >If you **HAVE NOT** just used the **Set up account for Document Information Extraction** booster to create a service instance for Document Information Extraction and subscribe to the Document Information Extraction application, observe the following:
-
-    >- To access the [Schema Configuration](https://help.sap.com/viewer/5fa7265b9ff64d73bac7cec61ee55ae6/SHIP/en-US/3c7862e30fc2488ea95f58f1d77e424e.html) feature, ensure that you use the `blocks_of_100` plan to create the service instance for Document Information Extraction Trial.
-
-    <br>![](/exercises/ex1/images/plan.png)
-
-
-    >- And make sure you're assigned to the role collection: `Document_Information_Extraction_UI_Templates_Admin_trial`. For more details on how to assign role collections, see step 2 in the tutorial: [Use Trial to Subscribe to Document Information Extraction Trial UI](https://developers.sap.com/tutorials/cp-aibus-dox-ui-sub.html).
-
-    <br>![](/exercises/ex1/images/roles.png)
-
-
-    >- After assigning new role collections, **Log Off** from the UI application to see all features you're now entitled to try out.
-
-    <br>![](/exercises/ex1/images/log-off.png)
-
-
-2. To create a custom schema, click the wheels icon and choose **Schema Configuration**.
+2. To access the schema configuration feature, click the wheels icon and choose **Schema Configuration**.
 
     <br>![](/exercises/ex1/images/access-schema-configuration.png)
 
-Here, you find the SAP schemas. The Document Information Extraction application includes preconfigured SAP schemas for the following standard document types: purchase order, payment advice, and invoice. In addition, there’s an SAP schema for custom documents (`SAP_OCROnly_schema`). You can’t delete or change SAP schemas. You can use them as they are, or create copies and adapt the list of fields according to your needs.
+3. To create your own schema, click **Create** and a dialog opens.
 
-<br>![](/exercises/ex1/images/sap-schemas.png)
+    <br>![](/exercises/ex1/images/create-schema.png)
 
+4. In the dialog, enter a name for your custom schema, `delivery_note_schema`, for example. Note that the name can't include blanks. Further, select `Custom` as your **Document Type** and `Document` for **OCR Engine Type**.
 
->**CAUTION:**
+5. Click **Create** to create the schema.
 
->When using the free tier option for Document Information Extraction or a trial account, be aware of the technical limits listed in [Free Tier Option and Trial Account Technical Constraints](https://help.sap.com/docs/document-information-extraction/document-information-extraction/free-tier-option-and-trial-account-technical-constraints).
+    <br>![](/exercises/ex1/images/create-schema-dialog.png)
 
+Now, your schema shows up in the list. 
 
+6. Access the schema by clicking on it.
 
-## Exercise 1.2 Create schema
-
-To create your own schema, click **Create** and a dialog opens.
-
-<br>![](/exercises/ex1/images/create-schema.png)
-
-In the dialog, enter a name for your custom schema, `delivery_note_schema`, for example. Note that the name can't include blanks. Further, select `Custom` as your **Document Type** and `Document` for **OCR Engine Type**.
-
-Click **Create** to create the schema.
-
-<br>![](/exercises/ex1/images/create-schema-dialog.png)
-
-Now, your schema shows up in the list. Access the schema by clicking on it.
-
-<br>![](/exercises/ex1/images/access-schema.png)
+    <br>![](/exercises/ex1/images/access-schema.png)
+ 
 
 
-
-## Exercise 1.3 Add data fields (header fields and line item fields)
+## Exercise 1.2 Add data fields
 
 To add your first header field, click **Add**.
 
@@ -105,7 +76,7 @@ Go ahead and create the list of header fields and line item fields as shown in t
 
 
 
-## Exercise 1.4 Activate schema
+## Exercise 1.3 Activate schema
 
 Once you've added all fields, the schema needs to be activated so that it can be used to extract information from documents. Right now, the schema has the status `DRAFT`, indicating that it can't be used yet.
 
@@ -121,7 +92,7 @@ Congratulations, you've now created and activated your custom schema for deliver
 
 
 
-## Exercise 1.5 Get extraction results
+## Exercise 1.4 Get extraction results
 
 1.  Access **Document** on the left navigation pane and click **+** to upload a new document.
 
