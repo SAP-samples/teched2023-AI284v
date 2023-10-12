@@ -1,6 +1,6 @@
 # Exercise 4 - Process a birth certificate using Document Information Extraction and LLMs
 
-In this exercise, you'll extract information from a custom document - in this case, a birth certificate. The Document Information Extraction service doesn't support custom document types out of the box. So, you'll create a custom schema to define the fields that you want to extract from a birth certificate document using LLMs (Large Language Models).
+In this exercise, you'll extract information from a custom document - in this case, a birth certificate in Chinese. The Document Information Extraction service doesn't support custom document types out of the box. So, you'll create a custom schema to define the fields that you want to extract from a birth certificate document using LLMs (Large Language Models).
 
 ## Exercise 4.1 Create schema
 
