@@ -27,10 +27,6 @@ For that, follow the tutorial: [Use Trial to Set Up Account for Document Informa
 - [Exercise 4 - Process a birth certificate using Document Information Extraction and LLMs](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex4/README.md)
 - [Exercise 5 - Process a work contract using Document Information Extraction and LLMs](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex5/README.md)
 
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
-
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
 
