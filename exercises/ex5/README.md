@@ -20,7 +20,9 @@ In this exercise, you'll extract information from a custom document - in this ca
 
     <br>![](/exercises/ex5/images/create-schema-dialog.png)
 
-    Now, your schema shows up in the list. Access the schema by clicking on it.
+    Now, your schema shows up in the list.
+
+6. Access the schema by clicking on it.
 
     <br>![](/exercises/ex5/images/access-schema.png)
 
