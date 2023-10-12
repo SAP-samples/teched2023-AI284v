@@ -73,7 +73,7 @@ Go ahead and create the list of header fields as shown in the table and image be
 |  header field         |  `startDate`          | date          | auto       
              
 
-    <br>![](/exercises/ex5/images/all-fields.png)
+<br>![](/exercises/ex5/images/all-fields.png)
 
 
 
@@ -83,11 +83,11 @@ Once you've added all fields, the schema needs to be activated so that it can be
 
 To activate the schema, click **Activate**.
 
-    <br>![](/exercises/ex5/images/activate.png)
+<br>![](/exercises/ex5/images/activate.png)
 
 Now, the status of your schema changes to `ACTIVE`. To make changes to your schema, you've to **Deactivate** it first.
 
-    <br>![](/exercises/ex5/images/active.png)
+<br>![](/exercises/ex5/images/active.png)
 
 Congratulations, you've now created and activated your custom schema for work contract documents.
 
