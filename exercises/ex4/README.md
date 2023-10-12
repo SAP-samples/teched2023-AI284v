@@ -28,7 +28,7 @@ Now, your schema shows up in the list.
 
 
 
-## Exercise 4.2 Add data fields (header fields and line item fields)
+## Exercise 4.2 Add data fields
 
 To add your first header field, click **Add**.
 
