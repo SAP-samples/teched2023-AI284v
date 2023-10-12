@@ -23,8 +23,8 @@ For that, follow the tutorial: [Use Trial to Set Up Account for Document Informa
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
-- [Exercise 1 - Process a delivery note using Document Information Extraction and LLMs](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex1/README.md).
-- [Exercise 2 - Process a receipt using Document Information Extraction and LLMs](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex2/README.md).
+- [Exercise 1 - Process a delivery note using Document Information Extraction and LLMs](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex1/README.md)
+- [Exercise 2 - Process a receipt using Document Information Extraction and LLMs](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex2/README.md)
 - [Exercise 3 - Process a résumé using Document Information Extraction and LLMs](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex3/README.md)
 - [Exercise 4 - Process a birth certificate using Document Information Extraction and LLMs](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex4/README.md)
 - [Exercise 5 - Process a work contract using Document Information Extraction and LLMs](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex5/README.md)
