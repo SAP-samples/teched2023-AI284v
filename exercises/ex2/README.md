@@ -26,10 +26,6 @@ Now, your schema shows up in the list.
 
     <br>![](/exercises/ex2/images/access-schema.png)
 
->**CAUTION:**
-
->When using the free tier option for Document Information Extraction or a trial account, be aware of the technical limits listed in [Free Tier Option and Trial Account Technical Constraints](https://help.sap.com/docs/document-information-extraction/document-information-extraction/free-tier-option-and-trial-account-technical-constraints).
-
 
 
 ## Exercise 2.2 Add data fields
