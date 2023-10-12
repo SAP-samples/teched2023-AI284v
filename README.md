@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2023 session AI284v - Session Title.  
 
 ## Overview
 
@@ -12,14 +12,22 @@ This session introduces attendees to...
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The requirements to follow the exercises in this repository are:
+- You've created an SAP BTP Trial account.
+- You've created a service instance for Document Information Extraction.
+- You've subscribed to the Document Information Extraction UI application.
+
+For that, follow the tutorial: [Use Trial to Set Up Account for Document Information Extraction and Go to Application](https://developers.sap.com/tutorials/cp-aibus-dox-booster-app.html).
 
 ## Exercises
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
+- [Exercise 1 - Process a receipt using Document Information Extraction and LLMs](../ex1/README.md).
+- [Exercise 2 - Process a receipt using Document Information Extraction and LLMs](../ex2/README.md).
+- [Exercise 3 - Process a receipt using Document Information Extraction and LLMs](../ex3/README.md).
+- [Exercise 4 - Process a receipt using Document Information Extraction and LLMs](../ex4/README.md).
+- [Exercise 5 - Process a receipt using Document Information Extraction and LLMs](../ex5/README.md).
     - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
     - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
 - [Exercise 2 - Second Exercise Description](exercises/ex2/)
