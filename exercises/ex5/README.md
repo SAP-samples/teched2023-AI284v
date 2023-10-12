@@ -28,9 +28,9 @@ In this exercise, you'll extract information from a custom document - in this ca
 
 ## Exercise 5.2 Add data fields (header fields and line item fields)
 
-    To add your first header field, click **Add**.
+To add your first header field, click **Add**.
 
-    <br>![](/exercises/ex5/images/add-field.png)
+<br>![](/exercises/ex5/images/add-field.png)
 
 For each custom field, you've to enter name and data type. The available data types are `string`, `number`, `date`, `discount`, `currency`, and `country/region`. Default extractors aren't available for custom documents. Adding a description is optional.
 
