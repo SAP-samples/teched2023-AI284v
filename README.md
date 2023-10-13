@@ -1,14 +1,14 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-AI284v)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-AI284v)
 
-# AI284v - Session Title
+# AI284v - Jump-Start Your Document Processing Use Case with Generative AI
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2023 session AI284v - Session Title.  
+This repository contains the exercise material for the SAP TechEd 2023 session AI284v - Jump-Start Your Document Processing Use Case with Generative AI.  
 
 ## Overview
 
-This session introduces attendees to...
+Learn how generative AI can help you automate use cases for business document processing with large language models (LLM), process business documents in more than 40 languages, and implement new business document use cases with shorter time to value. In addition, understand how you can extend default supplier invoices or purchase orders by defining custom entities required for the specifics of your particular business processes.
 
 ## Requirements
 
