@@ -34,7 +34,7 @@ To add your first header field, click **Add**.
 
 <br>![](/exercises/ex3/images/add-field.png)
 
-For each custom field, you've to enter name and data type. The available data types are `string`, `number`, `date`, `discount`, `currency`, and `country/region`. Default extractors aren't available for custom documents. Adding a description is optional.
+For each custom field, you've to enter field name and data type. The available data types are `string`, `number`, `date`, `discount`, `currency`, and `country/region`. Default extractors aren't available for custom documents. Adding a field label (user-friendly name) and a description is optional.
 
 As your first header field, add the first name that appears in the résumé.
 
