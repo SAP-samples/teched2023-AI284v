@@ -6,7 +6,7 @@ In this exercise, you'll extract information from a custom document - in this ca
 
 1. Open the Document Information Extraction application, as described in the tutorial: [Use Trial to Set Up Account for Document Information Extraction and Go to Application](https://developers.sap.com/tutorials/cp-aibus-dox-booster-app.html).  
 
-2. To access the schema configuration feature, click the wheels icon and choose **Schema Configuration**.
+2. To access the schema configuration feature, click the cogwheels icon and choose **Schema Configuration**.
 
     <br>![](/exercises/ex1/images/access-schema-configuration.png)
 
