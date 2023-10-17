@@ -8,7 +8,7 @@ This repository contains the exercise material for the SAP TechEd 2023 session A
 
 ## Overview
 
-Learn how generative AI can help you automate use cases for business document processing with large language models (LLM), process business documents in more than 40 languages, and implement new business document use cases with shorter time to value. In addition, understand how you can extend default supplier invoices or purchase orders by defining custom entities required for the specifics of your particular business processes.
+Learn how generative AI can help you automate use cases for business document processing with LLMs (Large Language Models), process business documents in more than 40 languages, and implement new business document use cases with shorter time to value. In addition, understand how you can extend default supplier invoices or purchase orders by defining custom entities required for the specifics of your particular business processes.
 
 ## Requirements
 
