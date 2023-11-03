@@ -103,7 +103,7 @@ Congratulations, you've now created and activated your custom schema for birth c
 
 3. Select the **Schema** you created (`birth_certificate_schema`).
 
-4. Drop the file directly or click **+** to upload the [birth certificate](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex4/files/birth_certificate.png) sample document.
+4. Drop the file directly or click **+** to upload the [birth certificate](https://github.com/SAP-samples/teched2023-AI284v/blob/main/exercises/ex4/files/birth_certificate.jpeg) sample document.
 
 5. Click **Step 2**.
 
