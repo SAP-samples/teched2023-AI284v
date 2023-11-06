@@ -5,7 +5,8 @@
 ## Description
 
 This repository contains the exercise material for the SAP TechEd 2023 session AI284v - Jump-Start Your Document Processing Use Case with Generative AI. 
-Here you can also find the slides that were shared during the session.
+
+Here(https://github.com/SAP-samples/teched2023-AI284v/blob/main/slides/AI284v_presentation.pdf) you can also find the slides that were shared during the session.
 
 ## Overview
 
